@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="{8C198930-E89C-7BBC-0691-BA0F5D60FBB3}">
+		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="{D0C02112-D4D8-5F75-73BF-8B0AF1C39E84}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -27,7 +27,7 @@
 				</File>
 				<File Id="128893236" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Field_Hill.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Field_Hill_14E21738.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Field_Hill_05A4D402.wem</CachePath>
 				</File>
 				<File Id="166016431" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Jump_Landing.wav</ShortName>
@@ -79,7 +79,7 @@
 				</File>
 				<File Id="351174617" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Trees.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Trees_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Trees_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="375219526" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Grass_04.wav</ShortName>
@@ -87,7 +87,7 @@
 				</File>
 				<File Id="429719910" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Fire.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Fire_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Fire_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="461003190" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Water_01.wav</ShortName>
@@ -119,7 +119,7 @@
 				</File>
 				<File Id="625419297" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Ocean.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Ocean_480B73C0.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Ocean_03A71F18.wem</CachePath>
 				</File>
 				<File Id="669587357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Heartbeat.wav</ShortName>
@@ -135,7 +135,7 @@
 				</File>
 				<File Id="721770833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_torch.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_torch_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_torch_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="755010305" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Rocks_01.wav</ShortName>
@@ -167,7 +167,7 @@
 				</File>
 				<File Id="983040015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Cave.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Cave_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Cave_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="993403417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Attack.wav</ShortName>
@@ -188,7 +188,7 @@
 						<MediaRef Id="534279245"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3755979049" Name="Amb_Cave" GUID="{7D713E3D-A2EE-45D9-A76F-DCC3E2DD007D}" MaxAttenuation="20" DurationType="OneShot" DurationMin="69.38594" DurationMax="69.38594">
+				<Event Id="3755979049" Name="Amb_Cave" GUID="{7D713E3D-A2EE-45D9-A76F-DCC3E2DD007D}" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="983040015"/>
 					</MediaRefs>
@@ -198,12 +198,12 @@
 						<MediaRef Id="813411741"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1997053204" Name="Amb_Field_Hill" GUID="{BF53285E-A359-4918-9B9C-D27D4C2A4C0B}" DurationType="OneShot" DurationMin="59.526127" DurationMax="59.526127">
+				<Event Id="1997053204" Name="Amb_Field_Hill" GUID="{BF53285E-A359-4918-9B9C-D27D4C2A4C0B}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="128893236"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3207324726" Name="Amb_Fire" GUID="{AB443BF7-E4EB-4B79-AF6E-4066C8BDB519}" MaxAttenuation="20" DurationType="OneShot" DurationMin="7.490396" DurationMax="7.490396">
+				<Event Id="3207324726" Name="Amb_Fire" GUID="{AB443BF7-E4EB-4B79-AF6E-4066C8BDB519}" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="429719910"/>
 					</MediaRefs>
@@ -213,12 +213,12 @@
 						<MediaRef Id="625419297"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2565812264" Name="Amb_torch" GUID="{52C60018-0847-430D-98E2-90A45BA4842E}" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.0665834" DurationMax="2.0665834">
+				<Event Id="2565812264" Name="Amb_torch" GUID="{52C60018-0847-430D-98E2-90A45BA4842E}" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="721770833"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2644861617" Name="Amb_Trees" GUID="{B38A28D9-9ECD-44AD-9660-F7F5EA27E0BA}" MaxAttenuation="20" DurationType="OneShot" DurationMin="68.181335" DurationMax="68.181335">
+				<Event Id="2644861617" Name="Amb_Trees" GUID="{B38A28D9-9ECD-44AD-9660-F7F5EA27E0BA}" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="351174617"/>
 					</MediaRefs>
@@ -396,5 +396,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D6857A31-1019-01C0-E9A5-79FECAF05E1B}</FileHash>
+	<FileHash>{592296F0-ACA8-932B-6E90-49485FAD8165}</FileHash>
 </SoundBanksInfo>

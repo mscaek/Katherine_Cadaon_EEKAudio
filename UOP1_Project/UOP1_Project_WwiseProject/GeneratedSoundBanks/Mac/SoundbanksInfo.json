@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
     "Language": "SFX",
-    "Hash": "{8C198930-E89C-7BBC-0691-BA0F5D60FBB3}",
+    "Hash": "{D0C02112-D4D8-5F75-73BF-8B0AF1C39E84}",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "Media": [
@@ -68,7 +68,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Sounds\\Amb_Field_Hill.wav",
-      "CachePath": "SFX/Sounds/Amb_Field_Hill_14E21738.wem"
+      "CachePath": "SFX/Sounds/Amb_Field_Hill_05A4D402.wem"
      },
      {
       "Id": "166016431",
@@ -172,7 +172,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Sounds\\Amb_Trees.wav",
-      "CachePath": "SFX/Sounds/Amb_Trees_818F3B66.wem"
+      "CachePath": "SFX/Sounds/Amb_Trees_FBC78EF0.wem"
      },
      {
       "Id": "375219526",
@@ -188,7 +188,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Sounds\\Amb_Fire.wav",
-      "CachePath": "SFX/Sounds/Amb_Fire_818F3B66.wem"
+      "CachePath": "SFX/Sounds/Amb_Fire_FBC78EF0.wem"
      },
      {
       "Id": "461003190",
@@ -252,7 +252,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Sounds\\Amb_Ocean.wav",
-      "CachePath": "SFX/Sounds/Amb_Ocean_480B73C0.wem"
+      "CachePath": "SFX/Sounds/Amb_Ocean_03A71F18.wem"
      },
      {
       "Id": "669587357",
@@ -284,7 +284,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Sounds\\Amb_torch.wav",
-      "CachePath": "SFX/Sounds/Amb_torch_818F3B66.wem"
+      "CachePath": "SFX/Sounds/Amb_torch_FBC78EF0.wem"
      },
      {
       "Id": "755010305",
@@ -348,7 +348,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Sounds\\Amb_Cave.wav",
-      "CachePath": "SFX/Sounds/Amb_Cave_818F3B66.wem"
+      "CachePath": "SFX/Sounds/Amb_Cave_FBC78EF0.wem"
      },
      {
       "Id": "993403417",
@@ -392,9 +392,7 @@
       "Name": "Amb_Cave",
       "GUID": "{7D713E3D-A2EE-45D9-A76F-DCC3E2DD007D}",
       "MaxAttenuation": "20",
-      "DurationType": "OneShot",
-      "DurationMin": "69.38594",
-      "DurationMax": "69.38594",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "983040015"
@@ -416,9 +414,7 @@
       "Id": "1997053204",
       "Name": "Amb_Field_Hill",
       "GUID": "{BF53285E-A359-4918-9B9C-D27D4C2A4C0B}",
-      "DurationType": "OneShot",
-      "DurationMin": "59.526127",
-      "DurationMax": "59.526127",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "128893236"
@@ -430,9 +426,7 @@
       "Name": "Amb_Fire",
       "GUID": "{AB443BF7-E4EB-4B79-AF6E-4066C8BDB519}",
       "MaxAttenuation": "20",
-      "DurationType": "OneShot",
-      "DurationMin": "7.490396",
-      "DurationMax": "7.490396",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "429719910"
@@ -456,9 +450,7 @@
       "Name": "Amb_torch",
       "GUID": "{52C60018-0847-430D-98E2-90A45BA4842E}",
       "MaxAttenuation": "20",
-      "DurationType": "OneShot",
-      "DurationMin": "2.0665834",
-      "DurationMax": "2.0665834",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "721770833"
@@ -470,9 +462,7 @@
       "Name": "Amb_Trees",
       "GUID": "{B38A28D9-9ECD-44AD-9660-F7F5EA27E0BA}",
       "MaxAttenuation": "20",
-      "DurationType": "OneShot",
-      "DurationMin": "68.181335",
-      "DurationMax": "68.181335",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "351174617"
@@ -1318,6 +1308,6 @@
     ]
    }
   ],
-  "FileHash": "{7E7492CF-C87D-F225-D2AD-8F617EB173F5}"
+  "FileHash": "{75CC209E-5C91-E462-6AED-44E16CF150C4}"
  }
 }

@@ -38,8 +38,28 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
     GuidInternal: 
-    m_lastTime: -8584919504146288176
+    m_lastTime: -8584907580147560947
     List:
+    - name: Ambient
+      guid: 283d2ee27c9cc2499680065f82c1c897
+      id: 77978275
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 867e80eba2c830488a3a1d1031be0961
+      - ElementName: Ambient
+        ObjectType: 2
+        guid: 283d2ee27c9cc2499680065f82c1c897
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Ambient
     - name: CaveReverb
       guid: e1e6b5dbecc31e4b80a6d3b4d9efc165
       id: 1697398818
@@ -120,7 +140,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: cd4a6721a693ed4382e34f20bf0d65e6
     GuidInternal: 
-    m_lastTime: -8584913623085983008
+    m_lastTime: -8584907588016414317
     List:
     - name: Music
       guid: 18618433eb301f49ba516b900b7b3237
@@ -162,7 +182,7 @@ MonoBehaviour:
     ParentPath: Events\Ambience
     guid: d2ced58090a83945ae65d1fa261578a0
     GuidInternal: 
-    m_lastTime: -8584911912332928872
+    m_lastTime: -8584907602098719354
     List:
     - name: Amb_Beach
       guid: 2564481e800d2142bf047b9c7fb5048b
@@ -184,6 +204,146 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Amb_Cave
+      guid: 3d3e717deea2d945a76fdcc3e2dd007d
+      id: 3755979049
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: Amb_Cave
+        ObjectType: 3
+        guid: 3d3e717deea2d945a76fdcc3e2dd007d
+      Path: Events\Ambience\Reverb\Amb_Cave
+      maxAttenuation: 20
+      maxDuration: 69.38594
+      minDuration: 69.38594
+    - name: Amb_Field_Farms
+      guid: f1617f954121bf48b22bd1d6f41ee489
+      id: 728646680
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: Amb_Field_Farms
+        ObjectType: 3
+        guid: f1617f954121bf48b22bd1d6f41ee489
+      Path: Events\Ambience\Reverb\Amb_Field_Farms
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Field_Hill
+      guid: 5e2853bf59a318499b9cd27d4c2a4c0b
+      id: 1997053204
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: Amb_Field_Hill
+        ObjectType: 3
+        guid: 5e2853bf59a318499b9cd27d4c2a4c0b
+      Path: Events\Ambience\Reverb\Amb_Field_Hill
+      maxAttenuation: 0
+      maxDuration: 59.526127
+      minDuration: 59.526127
+    - name: Amb_Fire
+      guid: f73b44abebe4794baf6e4066c8bdb519
+      id: 3207324726
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: Amb_Fire
+        ObjectType: 3
+        guid: f73b44abebe4794baf6e4066c8bdb519
+      Path: Events\Ambience\Reverb\Amb_Fire
+      maxAttenuation: 20
+      maxDuration: 7.490396
+      minDuration: 7.490396
+    - name: Amb_Ocean
+      guid: e4208d4817aa904690f21991baa9cdde
+      id: 3635877684
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: Amb_Ocean
+        ObjectType: 3
+        guid: e4208d4817aa904690f21991baa9cdde
+      Path: Events\Ambience\Reverb\Amb_Ocean
+      maxAttenuation: 20
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_torch
+      guid: 1800c65247080d4398e290a45ba4842e
+      id: 2565812264
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: Amb_torch
+        ObjectType: 3
+        guid: 1800c65247080d4398e290a45ba4842e
+      Path: Events\Ambience\Reverb\Amb_torch
+      maxAttenuation: 20
+      maxDuration: 2.0665834
+      minDuration: 2.0665834
+    - name: Amb_Trees
+      guid: d9288ab3cd9ead449660f7f5ea27e0ba
+      id: 2644861617
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: Amb_Trees
+        ObjectType: 3
+        guid: d9288ab3cd9ead449660f7f5ea27e0ba
+      Path: Events\Ambience\Reverb\Amb_Trees
+      maxAttenuation: 20
+      maxDuration: 68.181335
+      minDuration: 68.181335
     - name: CaveReverb_Disable
       guid: 127438b137014843ba74549a18f48604
       id: 1879932703
@@ -202,8 +362,8 @@ MonoBehaviour:
         guid: 127438b137014843ba74549a18f48604
       Path: Events\Ambience\Reverb\CaveReverb_Disable
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: CaveReverb_Enable
       guid: 85ca01ed4554104aba81e68194e22985
       id: 1940944140
@@ -222,8 +382,8 @@ MonoBehaviour:
         guid: 85ca01ed4554104aba81e68194e22985
       Path: Events\Ambience\Reverb\CaveReverb_Enable
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Reverb
       guid: b0d3bb8d461acf4e8d49947518b3565b
       id: 348963605
@@ -268,6 +428,87 @@ MonoBehaviour:
         ObjectType: 3
         guid: 487ac7076141334793741e25b5b1642d
       Path: Events\Control\Scene_Change
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Creatures (Monsters).wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Creatures (Monsters)
+      ObjectType: 12
+      guid: e0cfabd592dbb7428d175e7baf5b263d
+    ParentPath: Events\Creatures (Monsters)
+    guid: e0cfabd592dbb7428d175e7baf5b263d
+    GuidInternal: 
+    m_lastTime: -8584907588016345958
+    List:
+    - name: Critter_Plant_Attack
+      guid: 693850616a7594449618da2a561dd796
+      id: 1969612259
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Creatures (Monsters)
+        ObjectType: 12
+        guid: e0cfabd592dbb7428d175e7baf5b263d
+      - ElementName: Critter_Plant_Attack
+        ObjectType: 3
+        guid: 693850616a7594449618da2a561dd796
+      Path: Events\Creatures (Monsters)\Critter_Plant_Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Critter_Plant_Death
+      guid: 04449d5a10a5704c86e675154e7bc127
+      id: 2910694179
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Creatures (Monsters)
+        ObjectType: 12
+        guid: e0cfabd592dbb7428d175e7baf5b263d
+      - ElementName: Critter_Plant_Death
+        ObjectType: 3
+        guid: 04449d5a10a5704c86e675154e7bc127
+      Path: Events\Creatures (Monsters)\Critter_Plant_Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Critter_Plant_GettingHit
+      guid: 54afc073000e7d4484dfca56319ceabc
+      id: 1822764980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Creatures (Monsters)
+        ObjectType: 12
+        guid: e0cfabd592dbb7428d175e7baf5b263d
+      - ElementName: Critter_Plant_GettingHit
+        ObjectType: 3
+        guid: 54afc073000e7d4484dfca56319ceabc
+      Path: Events\Creatures (Monsters)\Critter_Plant_GettingHit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Critter_Plant_Idle
+      guid: 84817859ecdb3240806ec4f0f38ca1cf
+      id: 2891098061
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Creatures (Monsters)
+        ObjectType: 12
+        guid: e0cfabd592dbb7428d175e7baf5b263d
+      - ElementName: Critter_Plant_Idle
+        ObjectType: 3
+        guid: 84817859ecdb3240806ec4f0f38ca1cf
+      Path: Events\Creatures (Monsters)\Critter_Plant_Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -329,8 +570,8 @@ MonoBehaviour:
         guid: 1bdcdf0876821d41a16d09b36d0fe31d
       Path: Events\Music\Pause_Menu_Off
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Pause_Menu_On
       guid: b5f11ae441722e479d34d46a690b69dc
       id: 3483621035
@@ -346,8 +587,8 @@ MonoBehaviour:
         guid: b5f11ae441722e479d34d46a690b69dc
       Path: Events\Music\Pause_Menu_On
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\NPC.wwu
     PathAndIcons:
     - ElementName: Events
@@ -359,7 +600,7 @@ MonoBehaviour:
     ParentPath: Events\NPC
     guid: 2e1cb5239a925641971f94e98a27318a
     GuidInternal: 
-    m_lastTime: -8584913610708416529
+    m_lastTime: -8584907591225570302
     List:
     - name: NPC_Hare_Song_Long
       guid: 6c8500061c1a68458b0095fb9b9e47b0
@@ -375,6 +616,57 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6c8500061c1a68458b0095fb9b9e47b0
       Path: Events\NPC\NPC_Hare_Song_Long
+      maxAttenuation: 20
+      maxDuration: 4.7317915
+      minDuration: 4.7317915
+    - name: NPC_Hare_Talk
+      guid: 7f6fca4e935bbc40a137343560ed763f
+      id: 1419286180
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: NPC
+        ObjectType: 12
+        guid: 2e1cb5239a925641971f94e98a27318a
+      - ElementName: NPC_Hare_Talk
+        ObjectType: 3
+        guid: 7f6fca4e935bbc40a137343560ed763f
+      Path: Events\NPC\NPC_Hare_Talk
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Townsfolk_Female_Talk
+      guid: c5f659db0e749b45815e5372d13b9213
+      id: 2971175702
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: NPC
+        ObjectType: 12
+        guid: 2e1cb5239a925641971f94e98a27318a
+      - ElementName: Townsfolk_Female_Talk
+        ObjectType: 3
+        guid: c5f659db0e749b45815e5372d13b9213
+      Path: Events\NPC\Townsfolk_Female_Talk
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Townsfolk_Male_Talk
+      guid: 2dc5a2476c375b41aa3ff1f35033adb7
+      id: 660562971
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: NPC
+        ObjectType: 12
+        guid: 2e1cb5239a925641971f94e98a27318a
+      - ElementName: Townsfolk_Male_Talk
+        ObjectType: 3
+        guid: 2dc5a2476c375b41aa3ff1f35033adb7
+      Path: Events\NPC\Townsfolk_Male_Talk
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -389,7 +681,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: be20837361e8144d8671feed36fff208
     GuidInternal: 
-    m_lastTime: -8584913629531459402
+    m_lastTime: -8584907578263614483
     List:
     - name: Player_Attack
       guid: 57819d7089fbea4986f4fc8e13b0fb82
@@ -406,8 +698,8 @@ MonoBehaviour:
         guid: 57819d7089fbea4986f4fc8e13b0fb82
       Path: Events\Player\Player_Attack
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.09502083
+      minDuration: 0.09502083
     - name: Player_Die
       guid: 18fcfd27931ccd4d876e820f9018b467
       id: 1542330065
@@ -423,8 +715,8 @@ MonoBehaviour:
         guid: 18fcfd27931ccd4d876e820f9018b467
       Path: Events\Player\Player_Die
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.8475208
+      minDuration: 0.8475208
     - name: Player_Footsteps
       guid: 423fbdf93c3d6f4391199cf45c4d327c
       id: 1730208058
@@ -440,8 +732,8 @@ MonoBehaviour:
         guid: 423fbdf93c3d6f4391199cf45c4d327c
       Path: Events\Player\Player_Footsteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.78125
+      minDuration: 0.29483333
     - name: Player_GetHit
       guid: 7b8f599d18c3454f89302fb8a90509a1
       id: 3945457670
@@ -457,8 +749,8 @@ MonoBehaviour:
         guid: 7b8f599d18c3454f89302fb8a90509a1
       Path: Events\Player\Player_GetHit
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.31345832
+      minDuration: 0.31345832
     - name: Player_Grab
       guid: d2d326998ecd59478bfe07cac36e0be9
       id: 816303795
@@ -474,8 +766,8 @@ MonoBehaviour:
         guid: d2d326998ecd59478bfe07cac36e0be9
       Path: Events\Player\Player_Grab
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.28416666
+      minDuration: 0.28416666
     - name: Player_Heartbeat
       guid: 8ca0909c40c22049855544888be56f38
       id: 3484321931
@@ -491,8 +783,8 @@ MonoBehaviour:
         guid: 8ca0909c40c22049855544888be56f38
       Path: Events\Player\Player_Heartbeat
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.41295832
+      minDuration: 0.41295832
     - name: Player_Jump_Landing
       guid: e757c5a591f5fc4384c93af929e33666
       id: 3856109001
@@ -508,8 +800,8 @@ MonoBehaviour:
         guid: e757c5a591f5fc4384c93af929e33666
       Path: Events\Player\Player_Jump_Landing
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.22641666
+      minDuration: 0.22641666
     - name: Player_Jump_LiftOff
       guid: a2e5580f19f91446ab59dff8042dd26f
       id: 1363577934
@@ -525,8 +817,8 @@ MonoBehaviour:
         guid: a2e5580f19f91446ab59dff8042dd26f
       Path: Events\Player\Player_Jump_LiftOff
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.3835
+      minDuration: 0.3835
     - name: Player_Talk
       guid: 2f31b4c25877cc40ae067ff391737b6a
       id: 2675089675
@@ -541,6 +833,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2f31b4c25877cc40ae067ff391737b6a
       Path: Events\Player\Player_Talk
+      maxAttenuation: 0
+      maxDuration: 1.3931667
+      minDuration: 1.3931667
+    - name: Player_Water_Splash
+      guid: af3024613f4de748b6d71cc9fc1cd77e
+      id: 2060690880
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Player
+        ObjectType: 12
+        guid: be20837361e8144d8671feed36fff208
+      - ElementName: Player_Water_Splash
+        ObjectType: 3
+        guid: af3024613f4de748b6d71cc9fc1cd77e
+      Path: Events\Player\Player_Water_Splash
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -572,8 +881,8 @@ MonoBehaviour:
         guid: be07e7fdb3d87b4ea444006f092e7c69
       Path: Events\UI\UI_Click
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.015
+      minDuration: 0.015
     - name: UI_Shuffle
       guid: c39bee09c8fe3f45aa2af59514d364e8
       id: 592624029
@@ -589,8 +898,8 @@ MonoBehaviour:
         guid: c39bee09c8fe3f45aa2af59514d364e8
       Path: Events\UI\UI_Shuffle
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.18575
+      minDuration: 0.18575
     - name: UI_Use
       guid: 33a645f9195c68499faff828806877f2
       id: 3210856931
@@ -606,8 +915,8 @@ MonoBehaviour:
         guid: 33a645f9195c68499faff828806877f2
       Path: Events\UI\UI_Use
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.08289583
+      minDuration: 0.08289583
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

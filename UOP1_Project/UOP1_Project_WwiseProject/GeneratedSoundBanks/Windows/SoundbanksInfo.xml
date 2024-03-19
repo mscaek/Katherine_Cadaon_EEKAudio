@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="{9D0FEA50-5719-A276-13A0-F02DF7AE1EDC}">
+		<SoundBank Id="393239870" Type="User" GUID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}" Language="SFX" Hash="{D0C02112-D4D8-5F75-73BF-8B0AF1C39E84}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -25,13 +25,17 @@
 					<ShortName>Sounds\Player_Footsteps_Rocks_03.wav</ShortName>
 					<CachePath>SFX/Sounds/Player_Footsteps_Rocks_03_818F3B66.wem</CachePath>
 				</File>
+				<File Id="45115457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sounds\NPC_Hare_Talk.wav</ShortName>
+					<CachePath>SFX/Sounds/NPC_Hare_Talk_818F3B66.wem</CachePath>
+				</File>
 				<File Id="124235556" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Jump_LiftOff.wav</ShortName>
 					<CachePath>SFX/Sounds/Player_Jump_LiftOff_818F3B66.wem</CachePath>
 				</File>
 				<File Id="128893236" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Field_Hill.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Field_Hill_14E21738.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Field_Hill_05A4D402.wem</CachePath>
 				</File>
 				<File Id="166016431" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Jump_Landing.wav</ShortName>
@@ -49,9 +53,21 @@
 					<ShortName>Sounds\Player_Footsteps_Beach_03.wav</ShortName>
 					<CachePath>SFX/Sounds/Player_Footsteps_Beach_03_818F3B66.wem</CachePath>
 				</File>
+				<File Id="215600191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sounds\Critter_Plant_Death.wav</ShortName>
+					<CachePath>SFX/Sounds/Critter_Plant_Death_818F3B66.wem</CachePath>
+				</File>
 				<File Id="232893642" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\NPC_Hare_Song_Long.wav</ShortName>
 					<CachePath>SFX/Sounds/NPC_Hare_Song_Long_818F3B66.wem</CachePath>
+				</File>
+				<File Id="240765291" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sounds\Townsfolk_Female_Talk.wav</ShortName>
+					<CachePath>SFX/Sounds/Townsfolk_Female_Talk_818F3B66.wem</CachePath>
+				</File>
+				<File Id="278636895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sounds\Player_Water_Splash.wav</ShortName>
+					<CachePath>SFX/Sounds/Player_Water_Splash_818F3B66.wem</CachePath>
 				</File>
 				<File Id="280416633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Grass_02.wav</ShortName>
@@ -65,9 +81,13 @@
 					<ShortName>Sounds\Player_Footsteps_Rocks_04.wav</ShortName>
 					<CachePath>SFX/Sounds/Player_Footsteps_Rocks_04_818F3B66.wem</CachePath>
 				</File>
+				<File Id="347879211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sounds\Critter_Plant_Attack.wav</ShortName>
+					<CachePath>SFX/Sounds/Critter_Plant_Attack_818F3B66.wem</CachePath>
+				</File>
 				<File Id="351174617" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Trees.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Trees_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Trees_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="375219526" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Grass_04.wav</ShortName>
@@ -75,11 +95,15 @@
 				</File>
 				<File Id="429719910" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Fire.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Fire_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Fire_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="461003190" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Water_01.wav</ShortName>
 					<CachePath>SFX/Sounds/Player_Footsteps_Water_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="494579169" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sounds\Townsfolk_Male_Talk.wav</ShortName>
+					<CachePath>SFX/Sounds/Townsfolk_Male_Talk_818F3B66.wem</CachePath>
 				</File>
 				<File Id="518229614" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Rocks_02.wav</ShortName>
@@ -89,13 +113,21 @@
 					<ShortName>Sounds\Amb_Beach.wav</ShortName>
 					<CachePath>SFX/Sounds/Amb_Beach_05A4D402.wem</CachePath>
 				</File>
+				<File Id="555690045" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sounds\Critter_Plant_GettingHit.wav</ShortName>
+					<CachePath>SFX/Sounds/Critter_Plant_GettingHit_818F3B66.wem</CachePath>
+				</File>
 				<File Id="617576414" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Beach_04.wav</ShortName>
 					<CachePath>SFX/Sounds/Player_Footsteps_Beach_04_818F3B66.wem</CachePath>
 				</File>
+				<File Id="621350539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sounds\Critter_Plant_Idle.wav</ShortName>
+					<CachePath>SFX/Sounds/Critter_Plant_Idle_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="625419297" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Ocean.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Ocean_480B73C0.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Ocean_03A71F18.wem</CachePath>
 				</File>
 				<File Id="669587357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Heartbeat.wav</ShortName>
@@ -111,7 +143,7 @@
 				</File>
 				<File Id="721770833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_torch.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_torch_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_torch_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="755010305" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Footsteps_Rocks_01.wav</ShortName>
@@ -143,7 +175,7 @@
 				</File>
 				<File Id="983040015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Amb_Cave.wav</ShortName>
-					<CachePath>SFX/Sounds/Amb_Cave_818F3B66.wem</CachePath>
+					<CachePath>SFX/Sounds/Amb_Cave_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="993403417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sounds\Player_Attack.wav</ShortName>
@@ -164,7 +196,7 @@
 						<MediaRef Id="534279245"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3755979049" Name="Amb_Cave" GUID="{7D713E3D-A2EE-45D9-A76F-DCC3E2DD007D}" MaxAttenuation="20" DurationType="OneShot" DurationMin="69.38594" DurationMax="69.38594">
+				<Event Id="3755979049" Name="Amb_Cave" GUID="{7D713E3D-A2EE-45D9-A76F-DCC3E2DD007D}" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="983040015"/>
 					</MediaRefs>
@@ -174,12 +206,12 @@
 						<MediaRef Id="813411741"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1997053204" Name="Amb_Field_Hill" GUID="{BF53285E-A359-4918-9B9C-D27D4C2A4C0B}" DurationType="OneShot" DurationMin="59.526127" DurationMax="59.526127">
+				<Event Id="1997053204" Name="Amb_Field_Hill" GUID="{BF53285E-A359-4918-9B9C-D27D4C2A4C0B}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="128893236"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3207324726" Name="Amb_Fire" GUID="{AB443BF7-E4EB-4B79-AF6E-4066C8BDB519}" MaxAttenuation="20" DurationType="OneShot" DurationMin="7.490396" DurationMax="7.490396">
+				<Event Id="3207324726" Name="Amb_Fire" GUID="{AB443BF7-E4EB-4B79-AF6E-4066C8BDB519}" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="429719910"/>
 					</MediaRefs>
@@ -189,12 +221,12 @@
 						<MediaRef Id="625419297"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2565812264" Name="Amb_torch" GUID="{52C60018-0847-430D-98E2-90A45BA4842E}" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.0665834" DurationMax="2.0665834">
+				<Event Id="2565812264" Name="Amb_torch" GUID="{52C60018-0847-430D-98E2-90A45BA4842E}" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="721770833"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2644861617" Name="Amb_Trees" GUID="{B38A28D9-9ECD-44AD-9660-F7F5EA27E0BA}" MaxAttenuation="20" DurationType="OneShot" DurationMin="68.181335" DurationMax="68.181335">
+				<Event Id="2644861617" Name="Amb_Trees" GUID="{B38A28D9-9ECD-44AD-9660-F7F5EA27E0BA}" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="351174617"/>
 					</MediaRefs>
@@ -209,9 +241,34 @@
 						<ActionSetStateEntry GroupId="1697398818" Id="717767040" Name="CaveReverb_Enabled" GUID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="1969612259" Name="Critter_Plant_Attack" GUID="{61503869-756A-4494-9618-DA2A561DD796}" DurationType="OneShot" DurationMin="0.5340625" DurationMax="0.5340625">
+					<MediaRefs>
+						<MediaRef Id="347879211"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2910694179" Name="Critter_Plant_Death" GUID="{5A9D4404-A510-4C70-86E6-75154E7BC127}" DurationType="OneShot" DurationMin="0.777875" DurationMax="0.777875">
+					<MediaRefs>
+						<MediaRef Id="215600191"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1822764980" Name="Critter_Plant_GettingHit" GUID="{73C0AF54-0E00-447D-84DF-CA56319CEABC}" DurationType="OneShot" DurationMin="0.6501667" DurationMax="0.6501667">
+					<MediaRefs>
+						<MediaRef Id="555690045"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2891098061" Name="Critter_Plant_Idle" GUID="{59788184-DBEC-4032-806E-C4F0F38CA1CF}" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="621350539"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1717767246" Name="NPC_Hare_Song_Long" GUID="{0600856C-1A1C-4568-8B00-95FB9B9E47B0}" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.7317915" DurationMax="4.7317915">
 					<MediaRefs>
 						<MediaRef Id="232893642"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1419286180" Name="NPC_Hare_Talk" GUID="{4ECA6F7F-5B93-40BC-A137-343560ED763F}" DurationType="OneShot" DurationMin="1.1029375" DurationMax="1.1029375">
+					<MediaRefs>
+						<MediaRef Id="45115457"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2824512041" Name="Player_Attack" GUID="{709D8157-FB89-49EA-86F4-FC8E13B0FB82}" DurationType="OneShot" DurationMin="0.09502083" DurationMax="0.09502083">
@@ -294,7 +351,22 @@
 						<MediaRef Id="968735038"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2060690880" Name="Player_Water_Splash" GUID="{612430AF-4D3F-48E7-B6D7-1CC9FC1CD77E}" DurationType="OneShot" DurationMin="2.4147708" DurationMax="2.4147708">
+					<MediaRefs>
+						<MediaRef Id="278636895"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3170972326" Name="Scene_Change" GUID="{07C77A48-4161-4733-9374-1E25B5B1642D}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2971175702" Name="Townsfolk_Female_Talk" GUID="{DB59F6C5-740E-459B-815E-5372D13B9213}" DurationType="OneShot" DurationMin="2.020146" DurationMax="2.020146">
+					<MediaRefs>
+						<MediaRef Id="240765291"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="660562971" Name="Townsfolk_Male_Talk" GUID="{47A2C52D-376C-415B-AA3F-F1F35033ADB7}" DurationType="OneShot" DurationMin="2.1710625" DurationMax="2.1710625">
+					<MediaRefs>
+						<MediaRef Id="494579169"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2249769530" Name="UI_Click" GUID="{FDE707BE-D8B3-4E7B-A444-006F092E7C69}" DurationType="OneShot" DurationMin="0.015" DurationMax="0.015">
 					<MediaRefs>
 						<MediaRef Id="3245190"/>
@@ -331,7 +403,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F29E3C88-4AEE-E009-47AE-CFB09C6F80CE}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{2330EFC6-BF04-0F01-B752-0DAB0178FE64}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -344,6 +416,7 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="77978275" Name="Ambient" GUID="{E22E3D28-9C7C-49C2-9680-065F82C1C897}"/>
 				<Bus Id="393239870" Name="SFX" GUID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}">
 					<AuxBusRefs>
 						<AuxBusRef Id="1697398818" Name="CaveReverb" GUID="{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}"/>
@@ -397,11 +470,56 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" GUID="{33846118-30EB-491F-BA51-6B900B7B3237}" Language="SFX" Hash="{8D2197B8-2DB7-2315-6FE2-B433AFD7677E}">
+		<SoundBank Id="3991942870" Type="User" GUID="{33846118-30EB-491F-BA51-6B900B7B3237}" Language="SFX" Hash="{25577248-9E5F-9213-4E84-F27DE124E35C}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="40301397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music_Glade.wav</ShortName>
+					<CachePath>SFX/Music_Glade_05A4D402.wem</CachePath>
+				</File>
+				<File Id="250866822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music_Forest.wav</ShortName>
+					<CachePath>SFX/Music_Forest_05A4D402.wem</CachePath>
+				</File>
+				<File Id="275436597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music_Beach.wav</ShortName>
+					<CachePath>SFX/Music_Beach_05A4D402.wem</CachePath>
+				</File>
+				<File Id="462939257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music_MainTheme.wav</ShortName>
+					<CachePath>SFX/Music_MainTheme_05A4D402.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="3991942870" Name="Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="Infinite"/>
+				<Event Id="3991942870" Name="Music" GUID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="430932854" GUID="{8953B072-E2E1-4E95-9860-F0243B381C1D}"/>
+							<MediaRefs>
+								<MediaRef Id="275436597"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1874745927" GUID="{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}"/>
+							<MediaRefs>
+								<MediaRef Id="462939257"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="3954391251" GUID="{05D86287-310D-46C5-BB86-57F2984684F4}"/>
+							<MediaRefs>
+								<MediaRef Id="250866822"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="4139276889" GUID="{75BD13A5-6921-48F5-8E93-26E02C10B70E}"/>
+							<MediaRefs>
+								<MediaRef Id="40301397"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2179654399" Name="Pause_Menu_Off" GUID="{08DFDC1B-8276-411D-A16D-09B36D0FE31D}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<ActionSetState>
 						<ActionSetStateEntry GroupId="3092587493" Id="3967028551" Name="Pause_Off" GUID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
@@ -421,8 +539,17 @@
 						<State Id="3967028551" Name="Pause_Off" GUID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music" GUID="{5C7BB5EC-570A-4D51-9486-CE2B6FF7DEC1}">
+					<States>
+						<State Id="430932854" Name="Mus_Beach" GUID="{8953B072-E2E1-4E95-9860-F0243B381C1D}"/>
+						<State Id="748895195" Name="None" GUID="{E9CB0504-2C7B-4260-A5B9-A2BEE640FBE0}"/>
+						<State Id="1874745927" Name="Mus_MainMenu" GUID="{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}"/>
+						<State Id="3954391251" Name="Mus_Field_Hill" GUID="{05D86287-310D-46C5-BB86-57F2984684F4}"/>
+						<State Id="4139276889" Name="Mus_Field_Farms" GUID="{75BD13A5-6921-48F5-8E93-26E02C10B70E}"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2BF480A8-10F7-9416-C159-E954A0A0CAB9}</FileHash>
+	<FileHash>{3D54A08C-50E1-FEB6-C512-827A35D8BA62}</FileHash>
 </SoundBanksInfo>
