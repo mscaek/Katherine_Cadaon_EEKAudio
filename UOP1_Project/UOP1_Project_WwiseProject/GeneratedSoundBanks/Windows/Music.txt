@@ -3,3 +3,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
 	3991942870	Music			\Music\Music	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+State	ID	Name	State Group			Notes
+	430932854	Mus_Beach	Music			
+	748895195	None	Music			
+	1874745927	Mus_MainMenu	Music			
+	3954391251	Mus_Field_Hill	Music			
+	4139276889	Mus_Field_Farms	Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40301397	Music_Glade	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Glade_05A4D402.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Glade\Music_Glade		2603125
+	250866822	Music_Forest	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Forest_05A4D402.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Forest\Music_Forest\Music_Forest		4785419
+	275436597	Music_Beach	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_Beach_05A4D402.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_Beach\Music_Beach\Music_Beach		2987181
+	462939257	Music_MainTheme	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Music_MainTheme_05A4D402.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music\Music_MainTheme\Music_MainTheme\Music_MainTheme		4021320
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{23B51C2E-929A-4156-971F-94E98A27318A}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="NPC" ID="{23B51C2E-929A-4156-971F-94E98A27318A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="NPC_Hare_Song_Long" ID="{0600856C-1A1C-4568-8B00-95FB9B9E47B0}">
+					<ChildrenList>
+						<Action Name="" ID="{D728BAFC-4C17-41AD-8576-B27C6E440349}" ShortID="216916167">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hare Song" ID="{737AFF27-1B69-4FCE-80AE-97D5ABDCACFB}" WorkUnitID="{5D8531EF-D053-4951-9458-EA6040743002}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NPC_Hare_Talk" ID="{4ECA6F7F-5B93-40BC-A137-343560ED763F}">
+					<ChildrenList>
+						<Action Name="" ID="{703B771D-8B6F-4BD6-8E43-7207121DF11B}" ShortID="550751620">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NPC_Hare_Talk" ID="{D7CE1A98-8A02-4A68-96EC-E3668EBC3CBC}" WorkUnitID="{5D8531EF-D053-4951-9458-EA6040743002}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Townsfolk_Male_Talk" ID="{47A2C52D-376C-415B-AA3F-F1F35033ADB7}">
+					<ChildrenList>
+						<Action Name="" ID="{7A06E783-7708-4C3B-B1EC-C4CB063DEC6A}" ShortID="1057160436">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Townsfolk_Male_Talk" ID="{A7361380-8BD5-43B5-8779-46E8E232E15A}" WorkUnitID="{5D8531EF-D053-4951-9458-EA6040743002}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Townsfolk_Female_Talk" ID="{DB59F6C5-740E-459B-815E-5372D13B9213}">
+					<ChildrenList>
+						<Action Name="" ID="{CCDA95BA-5778-4105-B664-D805548DB73E}" ShortID="77520081">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Townsfolk_Female_Talk" ID="{02B08D5C-C35F-4D66-AD56-74A8AE8F81FE}" WorkUnitID="{5D8531EF-D053-4951-9458-EA6040743002}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

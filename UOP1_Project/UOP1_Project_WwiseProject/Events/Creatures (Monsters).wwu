@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D5ABCFE0-DB92-42B7-8D17-5E7BAF5B263D}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Creatures (Monsters)" ID="{D5ABCFE0-DB92-42B7-8D17-5E7BAF5B263D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Critter_Plant_Idle" ID="{59788184-DBEC-4032-806E-C4F0F38CA1CF}">
+					<ChildrenList>
+						<Action Name="" ID="{80E39794-DC9C-43DD-9622-D3D6686E5967}" ShortID="633700972">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Idle" ID="{380FEC06-08CD-4923-B85B-2C95DF5FC24F}" WorkUnitID="{8BB0A226-5651-40D5-974A-511D4F280405}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_Attack" ID="{61503869-756A-4494-9618-DA2A561DD796}">
+					<ChildrenList>
+						<Action Name="" ID="{D642CFE4-A72D-430D-A8BF-50B78AF7201E}" ShortID="182855196">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Attack" ID="{39EE5C15-C0E3-4C6C-9CAF-0160F1EB28F6}" WorkUnitID="{8BB0A226-5651-40D5-974A-511D4F280405}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_GettingHit" ID="{73C0AF54-0E00-447D-84DF-CA56319CEABC}">
+					<ChildrenList>
+						<Action Name="" ID="{9CB2FE6D-F5E8-4832-9B59-A5DCCA373F1F}" ShortID="136477022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GettingHit" ID="{01D1E427-6E27-43CD-B623-5C80E005EA7C}" WorkUnitID="{8BB0A226-5651-40D5-974A-511D4F280405}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Critter_Plant_Death" ID="{5A9D4404-A510-4C70-86E6-75154E7BC127}">
+					<ChildrenList>
+						<Action Name="" ID="{1B963A8B-0232-4CA9-9314-A06BA271A38B}" ShortID="291805371">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death" ID="{8E068AB4-123D-4ADE-9DE3-FEFCF9B5CFDD}" WorkUnitID="{8BB0A226-5651-40D5-974A-511D4F280405}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

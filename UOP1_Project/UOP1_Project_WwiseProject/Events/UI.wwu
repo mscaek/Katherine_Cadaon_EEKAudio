@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED570445-F61D-47DF-B457-2FCDCFB8ED21}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="UI" ID="{ED570445-F61D-47DF-B457-2FCDCFB8ED21}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="UI_Click" ID="{FDE707BE-D8B3-4E7B-A444-006F092E7C69}">
+					<ChildrenList>
+						<Action Name="" ID="{D961DA55-97B6-4AC6-970E-9BFF9460B6DF}" ShortID="558855022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{5721C5B4-DDDB-42D3-981A-55F7A07A23C5}" WorkUnitID="{8D9DEAC3-0DA9-42BC-8D86-8F59E88A8042}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Shuffle" ID="{09EE9BC3-FEC8-453F-AA2A-F59514D364E8}">
+					<ChildrenList>
+						<Action Name="" ID="{78254B45-5E38-425A-B179-7D44A619AA27}" ShortID="66212020">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Shuffle" ID="{86E3D751-7D47-42C4-AA7B-5121500FADA7}" WorkUnitID="{8D9DEAC3-0DA9-42BC-8D86-8F59E88A8042}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Use" ID="{F945A633-5C19-4968-9FAF-F828806877F2}">
+					<ChildrenList>
+						<Action Name="" ID="{FCB9AB67-31AA-4636-908C-88E9AB13F09E}" ShortID="235989629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Use" ID="{816A5224-5C8E-49B8-83E9-C6D1B448818F}" WorkUnitID="{8D9DEAC3-0DA9-42BC-8D86-8F59E88A8042}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

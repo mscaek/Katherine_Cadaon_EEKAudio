@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}" SchemaVersion="119">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
-						<Reference Name="AudioDevice">
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{284EB990-BA97-4BA8-B7AD-4DFDD3E38878}" WorkUnitID="{67BFBC61-61D5-43FF-B13C-C22A4E01DB9A}"/>
 						</Reference>
 					</ReferenceList>
@@ -25,11 +25,6 @@
 											</ValueList>
 										</Property>
 									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-											<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-										</Reference>
-									</ReferenceList>
 									<StateInfo>
 										<StateGroupList>
 											<StateGroupInfo>
@@ -62,10 +57,52 @@
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
-									<ObjectLists/>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{34EF6776-1797-47AB-9CEB-985FC4E19793}" ShortID="996227669">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="Pause_On" ID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+																	<CustomState Name="" ID="{95B20E6A-EE3B-4F64-91E6-130914DD1F16}" ShortID="683037709"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="CaveReverb_Enabled" ID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
+																	<CustomState Name="" ID="{0ABECB38-4029-405D-81BC-DCA4D92CA1B4}" ShortID="278262104"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="CaveReverb_Disabled" ID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
+																	<CustomState Name="" ID="{834DC108-9430-4382-B085-5F1EE1E01C15}" ShortID="439466799"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+																	<CustomState Name="" ID="{982F73D2-1E9C-49A0-A055-7AE450376D29}" ShortID="722470183"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</AuxBus>
+								<Bus Name="Ambient" ID="{E22E3D28-9C7C-49C2-9680-065F82C1C897}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
 							</ChildrenList>
-							<ObjectLists/>
 						</Bus>
 						<Bus Name="Music" ID="{5506F693-7D0C-43BF-806E-633BE5569559}">
 							<StateInfo>
@@ -89,10 +126,8 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
-							<ObjectLists/>
 						</Bus>
 					</ChildrenList>
-					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

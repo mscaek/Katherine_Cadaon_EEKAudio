@@ -2,48 +2,125 @@
  "SoundBanksInfo": {
   "Platform": "Windows",
   "BasePlatform": "Windows",
-  "SchemaVersion": "12",
-  "SoundbankVersion": "140",
-  "RootPaths": {
-   "ProjectRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
-   "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
-  },
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
   "SoundBanks": [
    {
     "Id": "3991942870",
+    "Type": "User",
     "GUID": "{33846118-30EB-491F-BA51-6B900B7B3237}",
     "Language": "SFX",
-    "Hash": "3470493165",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "Hash": "{25577248-9E5F-9213-4E84-F27DE124E35C}",
     "ShortName": "Music",
     "Path": "Music.bnk",
-    "IncludedEvents": [
+    "Media": [
+     {
+      "Id": "40301397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_Glade.wav",
+      "CachePath": "SFX/Music_Glade_05A4D402.wem"
+     },
+     {
+      "Id": "250866822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_Forest.wav",
+      "CachePath": "SFX/Music_Forest_05A4D402.wem"
+     },
+     {
+      "Id": "275436597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_Beach.wav",
+      "CachePath": "SFX/Music_Beach_05A4D402.wem"
+     },
+     {
+      "Id": "462939257",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_MainTheme.wav",
+      "CachePath": "SFX/Music_MainTheme_05A4D402.wem"
+     }
+    ],
+    "Events": [
      {
       "Id": "3991942870",
       "Name": "Music",
-      "ObjectPath": "\\Events\\Music\\Music",
       "GUID": "{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "430932854",
+         "GUID": "{8953B072-E2E1-4E95-9860-F0243B381C1D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "275436597"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "1874745927",
+         "GUID": "{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "462939257"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "3954391251",
+         "GUID": "{05D86287-310D-46C5-BB86-57F2984684F4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "250866822"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3991942870",
+         "Id": "4139276889",
+         "GUID": "{75BD13A5-6921-48F5-8E93-26E02C10B70E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40301397"
+         }
+        ]
+       }
+      ]
      },
      {
       "Id": "2179654399",
       "Name": "Pause_Menu_Off",
-      "ObjectPath": "\\Events\\Music\\Pause_Menu_Off",
       "GUID": "{08DFDC1B-8276-411D-A16D-09B36D0FE31D}",
-      "MaxAttenuation": "0.",
+      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0.",
+      "DurationMin": "0",
+      "DurationMax": "0",
       "ActionSetState": [
        {
+        "GroupId": "3092587493",
         "Id": "3967028551",
         "Name": "Pause_Off",
-        "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
         "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
        }
       ]
@@ -51,17 +128,16 @@
      {
       "Id": "3483621035",
       "Name": "Pause_Menu_On",
-      "ObjectPath": "\\Events\\Music\\Pause_Menu_On",
       "GUID": "{E41AF1B5-7241-472E-9D34-D46A690B69DC}",
-      "MaxAttenuation": "0.",
+      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0.",
+      "DurationMin": "0",
+      "DurationMax": "0",
       "ActionSetState": [
        {
+        "GroupId": "3092587493",
         "Id": "3537680115",
         "Name": "Pause_On",
-        "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
         "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
        }
       ]
@@ -69,21 +145,62 @@
     ],
     "StateGroups": [
      {
-      "Id": "3537680115",
-      "Name": "Pause_On",
-      "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
-      "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}",
-      "States": []
+      "Id": "3092587493",
+      "Name": "Pause",
+      "GUID": "{5D3C779C-8130-47C3-BFED-1E0641098106}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "GUID": "{F12F1341-B1A1-414E-90DF-4D572B9DB180}"
+       },
+       {
+        "Id": "3537680115",
+        "Name": "Pause_On",
+        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+       },
+       {
+        "Id": "3967028551",
+        "Name": "Pause_Off",
+        "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
+       }
+      ]
      },
      {
-      "Id": "3967028551",
-      "Name": "Pause_Off",
-      "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
-      "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}",
-      "States": []
+      "Id": "3991942870",
+      "Name": "Music",
+      "GUID": "{5C7BB5EC-570A-4D51-9486-CE2B6FF7DEC1}",
+      "States": [
+       {
+        "Id": "430932854",
+        "Name": "Mus_Beach",
+        "GUID": "{8953B072-E2E1-4E95-9860-F0243B381C1D}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "GUID": "{E9CB0504-2C7B-4260-A5B9-A2BEE640FBE0}"
+       },
+       {
+        "Id": "1874745927",
+        "Name": "Mus_MainMenu",
+        "GUID": "{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}"
+       },
+       {
+        "Id": "3954391251",
+        "Name": "Mus_Field_Hill",
+        "GUID": "{05D86287-310D-46C5-BB86-57F2984684F4}"
+       },
+       {
+        "Id": "4139276889",
+        "Name": "Mus_Field_Farms",
+        "GUID": "{75BD13A5-6921-48F5-8E93-26E02C10B70E}"
+       }
+      ]
      }
     ]
    }
-  ]
+  ],
+  "FileHash": "{E05077EC-92CE-A8AF-E3CF-07F58702177B}"
  }
 }

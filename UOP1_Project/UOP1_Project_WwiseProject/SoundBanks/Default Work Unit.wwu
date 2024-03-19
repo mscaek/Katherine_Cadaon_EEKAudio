@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{21674ACD-93A6-43ED-82E3-4F20BF0D65E6}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{21674ACD-93A6-43ED-82E3-4F20BF0D65E6}" SchemaVersion="119">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{21674ACD-93A6-43ED-82E3-4F20BF0D65E6}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}">
 					<ObjectInclusionList>
+						<ObjectRef Name="NPC" ID="{23B51C2E-929A-4156-971F-94E98A27318A}" WorkUnitID="{23B51C2E-929A-4156-971F-94E98A27318A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Creatures (Monsters)" ID="{D5ABCFE0-DB92-42B7-8D17-5E7BAF5B263D}" WorkUnitID="{D5ABCFE0-DB92-42B7-8D17-5E7BAF5B263D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{ED570445-F61D-47DF-B457-2FCDCFB8ED21}" WorkUnitID="{ED570445-F61D-47DF-B457-2FCDCFB8ED21}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" WorkUnitID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{738320BE-E861-4D14-8671-FEED36FFF208}" WorkUnitID="{738320BE-E861-4D14-8671-FEED36FFF208}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

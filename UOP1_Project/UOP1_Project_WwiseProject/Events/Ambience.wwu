@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" SchemaVersion="119">
 	<Events>
 		<WorkUnit Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" PersistMode="Standalone">
 			<ChildrenList>
@@ -28,6 +28,94 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="CaveReverb_Disabled" ID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}" WorkUnitID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Beach" ID="{1E486425-0D80-4221-BF04-7B9C7FB5048B}">
+							<ChildrenList>
+								<Action Name="" ID="{129B7ADB-B821-47F4-BCCA-3ED387F9DBC9}" ShortID="1072049568">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Beach" ID="{2669FD5F-2501-41C8-9E8D-517CA4C12048}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Field_Hill" ID="{BF53285E-A359-4918-9B9C-D27D4C2A4C0B}">
+							<ChildrenList>
+								<Action Name="" ID="{DFA64B36-08F6-43BA-A911-537A4934D2F1}" ShortID="991471567">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hills" ID="{59A3E40F-00CC-4D89-83A0-A665C897BAFA}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Field_Farms" ID="{957F61F1-2141-48BF-B22B-D1D6F41EE489}">
+							<ChildrenList>
+								<Action Name="" ID="{05BEC1A7-53B7-4FFC-8E71-7CC9BB64C93C}" ShortID="1008624082">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Town" ID="{47486E53-6953-42D0-9512-E04EAE8AE9C5}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_torch" ID="{52C60018-0847-430D-98E2-90A45BA4842E}">
+							<ChildrenList>
+								<Action Name="" ID="{950991A7-D59F-4A6E-A29A-8CB7C3E00ACC}" ShortID="330692358">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_torch" ID="{A8CA7A94-871A-428D-8512-A27CB2A1836C}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Ocean" ID="{488D20E4-AA17-4690-90F2-1991BAA9CDDE}">
+							<ChildrenList>
+								<Action Name="" ID="{3EE19658-C35C-40AA-9980-C24BAF9CB1C6}" ShortID="824266145">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Ocean" ID="{ABF7F509-3768-420A-8047-5C031A0C989E}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Trees" ID="{B38A28D9-9ECD-44AD-9660-F7F5EA27E0BA}">
+							<ChildrenList>
+								<Action Name="" ID="{F6C95FF8-4DDE-4C18-8BD8-B9560D2B9AD3}" ShortID="32963830">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Trees" ID="{EA0AFB9A-6741-45E6-8E0B-1D76B3BCC95C}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Cave" ID="{7D713E3D-A2EE-45D9-A76F-DCC3E2DD007D}">
+							<ChildrenList>
+								<Action Name="" ID="{159E5290-699F-4A28-B681-EF28CB9A8B84}" ShortID="608053366">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Cave" ID="{11916F2C-B208-4A44-B6A9-3EE4F92F71A0}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Fire" ID="{AB443BF7-E4EB-4B79-AF6E-4066C8BDB519}">
+							<ChildrenList>
+								<Action Name="" ID="{D263522C-E83B-420B-A490-B5423C0354B4}" ShortID="632433038">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Fire" ID="{E1173BBC-AF98-4F47-9751-8FC72DB1CA25}" WorkUnitID="{71382C3E-18D5-4729-A163-E8640C051828}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

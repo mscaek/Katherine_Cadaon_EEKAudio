@@ -1,23 +1,26 @@
 {
  "PluginInfo": {
-  "Project": "UOP1_Project_WwiseProject",
   "Platform": "Windows",
   "BasePlatform": "Windows",
-  "Plugins": [
+  "PluginLibs": [
    {
-    "Name": "Wwise RoomVerb",
-    "ID": "7733251",
+    "LibName": "Wwise RoomVerb",
+    "LibId": "7733251",
+    "Type": "Effect",
     "DLL": "AkRoomVerb",
     "StaticLib": "AkRoomVerbFX"
    },
    {
-    "Name": "System",
-    "ID": "11403271"
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
    },
    {
-    "Name": "No Output",
-    "ID": "11862023"
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
    }
-  ]
+  ],
+  "FileHash": "{BFC96AC8-4F88-3DCF-DCDD-B6CF26CB600C}"
  }
 }

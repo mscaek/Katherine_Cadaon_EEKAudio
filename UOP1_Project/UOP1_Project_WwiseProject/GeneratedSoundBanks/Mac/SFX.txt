@@ -1,5 +1,89 @@
 Event	ID	Name			Wwise Object Path	Notes
+	592624029	UI_Shuffle			\UI\UI_Shuffle	
+	660562971	Townsfolk_Male_Talk			\NPC\Townsfolk_Male_Talk	
+	728646680	Amb_Field_Farms			\Ambience\Reverb\Amb_Field_Farms	
+	816303795	Player_Grab			\Player\Player_Grab	
+	859052727	Amb_Beach			\Ambience\Reverb\Amb_Beach	
+	1363577934	Player_Jump_LiftOff			\Player\Player_Jump_LiftOff	
+	1419286180	NPC_Hare_Talk			\NPC\NPC_Hare_Talk	
+	1542330065	Player_Die			\Player\Player_Die	
+	1717767246	NPC_Hare_Song_Long			\NPC\NPC_Hare_Song_Long	
+	1730208058	Player_Footsteps			\Player\Player_Footsteps	
+	1822764980	Critter_Plant_GettingHit			\Creatures (Monsters)\Critter_Plant_GettingHit	
 	1879932703	CaveReverb_Disable			\Ambience\Reverb\CaveReverb_Disable	
 	1940944140	CaveReverb_Enable			\Ambience\Reverb\CaveReverb_Enable	
+	1969612259	Critter_Plant_Attack			\Creatures (Monsters)\Critter_Plant_Attack	
+	1997053204	Amb_Field_Hill			\Ambience\Reverb\Amb_Field_Hill	
+	2060690880	Player_Water_Splash			\Player\Player_Water_Splash	
+	2249769530	UI_Click			\UI\UI_Click	
+	2565812264	Amb_torch			\Ambience\Reverb\Amb_torch	
+	2644861617	Amb_Trees			\Ambience\Reverb\Amb_Trees	
+	2675089675	Player_Talk			\Player\Player_Talk	
+	2824512041	Player_Attack			\Player\Player_Attack	
+	2891098061	Critter_Plant_Idle			\Creatures (Monsters)\Critter_Plant_Idle	
+	2910694179	Critter_Plant_Death			\Creatures (Monsters)\Critter_Plant_Death	
+	2971175702	Townsfolk_Female_Talk			\NPC\Townsfolk_Female_Talk	
 	3170972326	Scene_Change			\Control\Scene_Change	
+	3207324726	Amb_Fire			\Ambience\Reverb\Amb_Fire	
+	3210856931	UI_Use			\UI\UI_Use	
+	3484321931	Player_Heartbeat			\Player\Player_Heartbeat	
+	3635877684	Amb_Ocean			\Ambience\Reverb\Amb_Ocean	
+	3755979049	Amb_Cave			\Ambience\Reverb\Amb_Cave	
+	3856109001	Player_Jump_Landing			\Player\Player_Jump_Landing	
+	3945457670	Player_GetHit			\Player\Player_GetHit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	547160665	Surface_Grass	Footsteps			
+	1810448540	Surface_Stone	Footsteps			
+	1897702823	Surface_Sand	Footsteps			
+	3248230778	Surface_Water	Footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3245190	UI_Click	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\UI_Click_818F3B66.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Click		1536
+	41846297	Player_GetHit	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_GetHit_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_GetHit		30188
+	42699678	Player_Footsteps_Rocks_03	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Rocks_03_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Stone footsteps\Player_Footsteps_Rocks_03		28400
+	45115457	NPC_Hare_Talk	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\NPC_Hare_Talk_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\Hare\Hare Talk\NPC_Hare_Talk		105978
+	124235556	Player_Jump_LiftOff	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Jump_LiftOff_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_Jump_LiftOff		36912
+	128893236	Hills	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Amb_Field_Hill_14E21738.wem		\Actor-Mixer Hierarchy\Ambience\Main\Hills		570460
+	166016431	Player_Jump_Landing	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Jump_Landing_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_Jump_Landing		21832
+	203441492	Player_Footsteps_Water_02	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Water_02_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Player_Footsteps_Water_02		65534
+	211909884	Player_Grab	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Grab_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_Grab		27376
+	214975682	Player_Footsteps_Beach_03	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Beach_03_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Player_Footsteps_Beach_03		64922
+	215600191	Death	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Critter_Plant_Death_818F3B66.wem		\Actor-Mixer Hierarchy\Creatures\Plant Monster\Plant Monster\Death		74772
+	232893642	NPC_Hare_Song_Long	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\NPC_Hare_Song_Long_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\Hare\Hare Song\NPC_Hare_Song_Long		454348
+	240765291	Townsfolk_Female_Talk	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Townsfolk_Female_Talk_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\OtherNPC\OtherNPC\Townsfolk_Female_Talk		194030
+	278636895	Player_Water_Splash	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Water_Splash_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_Water_Splash		231914
+	280416633	Player_Footsteps_Grass_02	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Grass_02_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Player_Footsteps_Grass_02		75096
+	296692158	UI_Shuffle	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\UI_Shuffle_818F3B66.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Shuffle		17928
+	340083359	Player_Footsteps_Rocks_04	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Rocks_04_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Stone footsteps\Player_Footsteps_Rocks_04		29890
+	347879211	Attack	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Critter_Plant_Attack_818F3B66.wem		\Actor-Mixer Hierarchy\Creatures\Plant Monster\Plant Monster\Attack		51366
+	351174617	Amb_Trees	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Amb_Trees_818F3B66.wem		\Actor-Mixer Hierarchy\Ambience\3D\Amb_Trees		6545504
+	375219526	Player_Footsteps_Grass_04	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Grass_04_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Player_Footsteps_Grass_04		60096
+	429719910	Amb_Fire	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Amb_Fire_818F3B66.wem		\Actor-Mixer Hierarchy\Ambience\3D\Amb_Fire		719174
+	461003190	Player_Footsteps_Water_01	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Water_01_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Player_Footsteps_Water_01		55132
+	494579169	Townsfolk_Male_Talk	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Townsfolk_Male_Talk_818F3B66.wem		\Actor-Mixer Hierarchy\NPC\OtherNPC\OtherNPC\Townsfolk_Male_Talk		208518
+	518229614	Player_Footsteps_Rocks_02	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Rocks_02_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Stone footsteps\Player_Footsteps_Rocks_02		32776
+	534279245	Beach	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Amb_Beach_05A4D402.wem		\Actor-Mixer Hierarchy\Ambience\Main\Beach		116702
+	555690045	GettingHit	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Critter_Plant_GettingHit_818F3B66.wem		\Actor-Mixer Hierarchy\Creatures\Plant Monster\Plant Monster\GettingHit		124928
+	617576414	Player_Footsteps_Beach_04	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Beach_04_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Player_Footsteps_Beach_04		54488
+	621350539	Idle	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Critter_Plant_Idle_FBC78EF0.wem		\Actor-Mixer Hierarchy\Creatures\Plant Monster\Plant Monster\Idle		1373008
+	625419297	Amb_Ocean	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Amb_Ocean_480B73C0.wem		\Actor-Mixer Hierarchy\Ambience\3D\Amb_Ocean		388856
+	669587357	Player_Heartbeat	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Heartbeat_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_Heartbeat		39740
+	694209239	Player_Footsteps_Water_03	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Water_03_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Player_Footsteps_Water_03		47384
+	702891043	Player_Die	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Die_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_Die		81458
+	721770833	Amb_torch	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Amb_torch_818F3B66.wem		\Actor-Mixer Hierarchy\Ambience\3D\Amb_torch		198488
+	755010305	Player_Footsteps_Rocks_01	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Rocks_01_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Stone footsteps\Player_Footsteps_Rocks_01		35494
+	807552896	UI_Use	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\UI_Use_818F3B66.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Use		8054
+	813411741	Town	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Amb_Field_Farms_05A4D402.wem		\Actor-Mixer Hierarchy\Ambience\Main\Town		301994
+	911462347	Player_Footsteps_Water_04	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Water_04_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Water footsteps\Player_Footsteps_Water_04		53124
+	930861976	Player_Footsteps_Grass_01	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Grass_01_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Player_Footsteps_Grass_01		69096
+	967236151	Player_Footsteps_Beach_02	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Beach_02_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Player_Footsteps_Beach_02		55572
+	968735038	Player_Talk	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Talk_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_Talk		133840
+	983040015	Amb_Cave	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Amb_Cave_818F3B66.wem		\Actor-Mixer Hierarchy\Ambience\3D\Amb_Cave		6661146
+	993403417	Player_Attack	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Attack_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Player\Player_Attack		9218
+	999545646	Player_Footsteps_Grass_03	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Grass_03_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Grass footsteps\Player_Footsteps_Grass_03		73096
+	1022012770	Player_Footsteps_Beach_01	F:\EUAS\Sound Processing\Katherine_Cadaon_EEKAudio\UOP1_Project\UOP1_Project_WwiseProject\.cache\Mac\SFX\Sounds\Player_Footsteps_Beach_01_818F3B66.wem		\Actor-Mixer Hierarchy\Player\Player\Footsteps\Sand footsteps\Player_Footsteps_Beach_01		50622
 

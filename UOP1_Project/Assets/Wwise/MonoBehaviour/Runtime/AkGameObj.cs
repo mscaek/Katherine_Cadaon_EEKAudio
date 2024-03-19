@@ -1,9 +1,20 @@
 #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
-//////////////////////////////////////////////////////////////////////
-//
-// Copyright (c) 2014 Audiokinetic Inc. / All Rights Reserved
-//
-//////////////////////////////////////////////////////////////////////
+/*******************************************************************************
+The content of this file includes portions of the proprietary AUDIOKINETIC Wwise
+Technology released in source code form as part of the game integration package.
+The content of this file may not be used without valid licenses to the
+AUDIOKINETIC Wwise Technology.
+Note that the use of the game engine is subject to the Unity(R) Terms of
+Service at https://unity3d.com/legal/terms-of-service
+ 
+License Usage
+ 
+Licensees holding valid licenses to the AUDIOKINETIC Wwise Technology may use
+this file in accordance with the end user license agreement provided with the
+software or, alternatively, in accordance with the terms contained
+in a written agreement between you and Audiokinetic Inc.
+Copyright (c) 2024 Audiokinetic Inc.
+*******************************************************************************/
 
 [UnityEngine.AddComponentMenu("Wwise/AkGameObj")]
 [UnityEngine.DisallowMultipleComponent]
@@ -62,12 +73,34 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 	public AKRESULT Register()
 	{
 		if (isRegistered)
+		{
 			return AKRESULT.AK_Success;
+		}
 
 		isRegistered = true;
 		return AkSoundEngine.RegisterGameObj(gameObject, gameObject.name);
 	}
 
+	private void UnregisterGameObject()
+	{
+		if (AkSoundEngine.IsInitialized())
+        {
+			Unregister();
+		}
+    }
+
+	public AKRESULT Unregister()
+	{
+		if (!isRegistered)
+		{
+			return AKRESULT.AK_Success;
+		}
+
+		isRegistered = false;
+		m_posData = null;
+		return AkSoundEngine.UnregisterGameObj(gameObject);
+	}
+	
 	private void SetPosition()
 	{
 		var position = GetPosition();
@@ -77,7 +110,9 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 		if (m_posData != null)
 		{
 			if (m_posData.position == position && m_posData.forward == forward && m_posData.up == up)
+			{
 				return;
+			}
 
 			m_posData.position = position;
 			m_posData.forward = forward;
@@ -90,19 +125,35 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 	private void Awake()
 	{
 #if UNITY_EDITOR
-		if (!AkSoundEngine.EditorIsSoundEngineLoaded || AkUtilities.IsMigrating)
+		if (AkUtilities.IsMigrating)
+		{
 			return;
+		}
 
 		if (!UnityEditor.EditorApplication.isPlaying)
+		{
 			UnityEditor.EditorApplication.update += CheckStaticStatus;
+		}
+		AkSoundEngineInitialization.Instance.initializationDelegate += RegisterGameObject;
+		AkSoundEngineInitialization.Instance.terminationDelegate += UnregisterGameObject;
 #endif
 
 		// If the object was marked as static, don't update its position to save cycles.
 		if (!isStaticObject)
+		{
 			m_posData = new AkGameObjPositionData();
+		}
 
 		// Cache the bounds to avoid calls to GetComponent()
 		m_Collider = GetComponent<UnityEngine.Collider>();
+	}
+
+    private void RegisterGameObject()
+    {
+		if (!AkSoundEngine.IsInitialized())
+        {
+			return;
+        }
 
 		//Register a Game Object in the sound engine, with its name.
 		if (Register() == AKRESULT.AK_Success)
@@ -114,7 +165,9 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 				m_envData = new AkGameObjEnvironmentData();
 
 				if (m_Collider)
+				{
 					m_envData.AddAkEnvironment(m_Collider, m_Collider);
+				}
 
 				m_envData.UpdateAuxSend(gameObject, transform.position);
 			}
@@ -127,7 +180,9 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 	{
 #if UNITY_EDITOR
 		if (AkUtilities.IsMigrating)
+		{
 			return;
+		}
 
 		try
 		{
@@ -148,29 +203,38 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 	{
 #if UNITY_EDITOR
 		if (AkUtilities.IsMigrating)
+		{
 			return;
+		}
 #endif
-
-		//if enabled is set to false, then the update function wont be called
-		enabled = !isStaticObject;
+		RegisterGameObject();
 	}
 
 #if UNITY_EDITOR
 	private void OnDisable()
 	{
-		if (!UnityEditor.EditorApplication.isPlaying &&AkSoundEngine.IsInitialized())
-			AkSoundEngine.UnregisterGameObj(gameObject);
+		if (!AkSoundEngineInitialization.Instance.ShouldKeepSoundEngineEnabled())
+		{
+			Unregister();
+		}
 	}
 #endif
 
 	private void OnDestroy()
 	{
 #if UNITY_EDITOR
-		if (!AkSoundEngine.EditorIsSoundEngineLoaded || AkUtilities.IsMigrating)
+		if (AkUtilities.IsMigrating)
+		{
 			return;
+		}
 
 		if (!UnityEditor.EditorApplication.isPlaying)
+		{
 			UnityEditor.EditorApplication.update -= CheckStaticStatus;
+		}
+
+		AkSoundEngineInitialization.Instance.initializationDelegate -= RegisterGameObject;
+		AkSoundEngineInitialization.Instance.terminationDelegate -= UnregisterGameObject;
 #endif
 
 		// We can't do the code in OnDestroy if the gameObj is unregistered, so do it now.
@@ -178,31 +242,35 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 		foreach (var handler in eventHandlers)
 		{
 			if (handler.triggerList.Contains(AkTriggerHandler.DESTROY_TRIGGER_ID))
+			{
 				handler.DoDestroy();
+			}
 		}
 
-#if UNITY_EDITOR
-		if (!UnityEditor.EditorApplication.isPlaying)
-			return;
-#endif
-
 		if (AkSoundEngine.IsInitialized())
-			AkSoundEngine.UnregisterGameObj(gameObject);
+		{
+			Unregister();
+		}
 	}
 
 	private void Update()
 	{
 #if UNITY_EDITOR
-		if (!AkSoundEngine.EditorIsSoundEngineLoaded || AkUtilities.IsMigrating ||
-		    !UnityEditor.EditorApplication.isPlaying)
+		if (AkUtilities.IsMigrating || !UnityEditor.EditorApplication.isPlaying)
+		{
 			return;
+		}
 #endif
 
-		if (m_envData != null)
-			m_envData.UpdateAuxSend(gameObject, transform.position);
-
 		if (!isStaticObject)
-			SetPosition();
+		{
+			if (m_envData != null)
+			{
+				m_envData.UpdateAuxSend(gameObject, transform.position);
+			}
+
+			SetPosition();			
+		}
 	}
 
 	/// Gets the position including the position offset, if applyPositionOffset is enabled. User can also override this method to calculate an arbitrary position.
@@ -210,7 +278,9 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 	public virtual UnityEngine.Vector3 GetPosition()
 	{
 		if (m_positionOffsetData == null)
+		{
 			return transform.position;
+		}
 
 		var worldOffset = transform.rotation * m_positionOffsetData.positionOffset;
 		return transform.position + worldOffset;
@@ -234,29 +304,39 @@ public class AkGameObj : UnityEngine.MonoBehaviour
 	{
 #if UNITY_EDITOR
 		if (AkUtilities.IsMigrating || !UnityEditor.EditorApplication.isPlaying)
+		{
 			return;
+		}
 #endif
 
 		if (isEnvironmentAware && m_envData != null)
+		{
 			m_envData.AddAkEnvironment(other, m_Collider);
+		}
 	}
 
 	private void OnTriggerExit(UnityEngine.Collider other)
 	{
 #if UNITY_EDITOR
 		if (AkUtilities.IsMigrating || !UnityEditor.EditorApplication.isPlaying)
+		{
 			return;
+		}
 #endif
 
 		if (isEnvironmentAware && m_envData != null)
+		{
 			m_envData.RemoveAkEnvironment(other, m_Collider);
+		}
 	}
 
 #if UNITY_EDITOR
 	public void OnDrawGizmosSelected()
 	{
 		if (AkUtilities.IsMigrating)
+		{
 			return;
+		}
 
 		var position = GetPosition();
 		UnityEngine.Gizmos.DrawIcon(position, "WwiseAudioSpeaker.png", false);
